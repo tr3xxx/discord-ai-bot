@@ -32,7 +32,7 @@ async def on_message(message):
         return
     if isinstance(message.channel, discord.DMChannel):
         await message.channel.typing()
-        message = await message.channel.send("Ich denke nach...")
+        message = await message.channel.send("Thinking about it...")
         await message.edit(content=answer(message.content))
 
 
