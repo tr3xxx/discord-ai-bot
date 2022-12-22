@@ -13,7 +13,7 @@ To install and run this bot, follow these steps:
 
 1. Clone the repository using Git:
 
-````git
+```git
 git clone https://github.com/tr3xxx/simple-discord-ai-bot.git
 ```
 
